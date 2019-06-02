@@ -1,5 +1,6 @@
 package ru.sheps.android.homework341;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utils.onActivityCreateSetTheme(this);
         setContentView(R.layout.activity_main);
     }
 
@@ -27,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         } else {
             locale = new Locale("eng");
         }
+
+        Spinner colorSinner = findViewById(R.id.spinnerForColor);
+        Utils.changeToTheme(this, colorSinner.getSelectedItemPosition());
+
+
         Configuration config = new Configuration();
         config.setLocale(locale);
         getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());

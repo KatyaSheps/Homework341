@@ -7,10 +7,10 @@
     <color name="colorPrimaryDarkGreen">#006400</color>
     <color name="colorAccentGreen">#6B8E23</color>
     <color name="colorPrimaryBlue">#2034BB</color>
-    <color name="colorPrimaryDarkBlue">#04123C</color>
+    <color name="colorPrimaryDarkBlue">#0E2A7E</color>
     <color name="colorAccentBlue">#165586</color>
     <color name="colorPrimaryBlack">#22232C</color>
-    <color name="colorPrimaryDarkBlack">#0C0B0B</color>
+    <color name="colorPrimaryDarkBlack">#292828</color>
     <color name="colorAccentBlack">#686866</color>
     <color name="commonColorForView">#FFEB3B</color>
 </resources>
