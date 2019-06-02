@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnOk(View view) {
         Locale locale;
-        Spinner spinner = findViewById(R.id.spinner);
+        Spinner spinner = findViewById(R.id.spinnerForLanguage);
         int position = spinner.getSelectedItemPosition();
         if (position == 1) {
             locale = new Locale("ru");
