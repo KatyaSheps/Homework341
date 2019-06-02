@@ -12,6 +12,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryGreen</item>
         <item name="colorButtonNormal">@color/colorPrimaryDarkGreen</item>
+        <item name="android:colorBackground">@color/colorBackgroundGreen</item>
         <item name="colorAccent">@color/colorAccentGreen</item>
     </style>
 
@@ -19,6 +20,7 @@
     <!-- Customize your theme here. -->
     <item name="colorPrimary">@color/colorPrimaryBlue</item>
     <item name="colorButtonNormal">@color/colorPrimaryDarkBlue</item>
+        <item name="android:colorBackground">@color/colorBackgroundBlue</item>
     <item name="colorAccent">@color/colorAccentBlue</item>
 </style>
 
@@ -26,6 +28,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryBlack</item>
         <item name="colorButtonNormal">@color/colorPrimaryDarkBlack</item>
+        <item name="android:colorBackground">@color/colorBackgroundBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>
 
     </style>
