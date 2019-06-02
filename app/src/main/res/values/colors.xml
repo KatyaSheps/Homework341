@@ -12,4 +12,5 @@
     <color name="colorPrimaryBlack">#22232C</color>
     <color name="colorPrimaryDarkBlack">#0C0B0B</color>
     <color name="colorAccentBlack">#686866</color>
+    <color name="commonColorForView">#FFEB3B</color>
 </resources>

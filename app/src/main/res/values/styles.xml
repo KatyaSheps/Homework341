@@ -28,4 +28,8 @@
         <item name="colorButtonNormal">@color/colorPrimaryDarkBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>
     </style>
+
+    <style name="TextColorsStyle">
+        <item name="android:textColor">@color/commonColorForView</item>
+    </style>
 </resources>
